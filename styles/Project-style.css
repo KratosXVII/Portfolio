@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Kanit:wght@300&family=Libre+Franklin:wght@500&family=Poppins:wght@300&family=Righteous&family=Source+Code+Pro:ital,wght@1,300&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+    /* scroll-padding-bottom: 120px; */
+}
+
+/* Designing of the scroll bar */
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+    /* border-radius: 10vw; */
+    /* margin-block: 1em; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(-120deg, #ff0404, #000, #ff0404);
+    border-radius: 50vw;
+    transition: 0.5s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(120deg, #000, #ff0404, #000);
+}
+
+/* Designing of the About section */
+
+.background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/Images/NewIdea/PNGs/bgp.png) no-repeat center center;
+    z-index: -1;
+}
+
+.background::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(1, 1, 1, 0.84);
+}
+
+.about-section {
+    position: relative;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 200px 200px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+/* Desining of the main navigation bar */
+
+header {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background: transparent;
+}
+
+.logo {
+    cursor: pointer;
+    height: 4rem;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+header .navigation {
+    display: flex;
+    position: relavtive;
+}
+
+header .navigation .navigation-items a {
+    position: relative;
+    color: #F5FFF9;
+    font-size: 1.6em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s ease;
+    top: 5px;
+}
+
+header .navigation .navigation-items a:hover {
+    /* transform: scale(1.6); */
+    color: #ff0404;
+}
+
+header .navigation .navigation-items a:not(:last-child):before {
+    content: "";
+    position: absolute;
+    background: #ff0404;
+    border-radius: 50px;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+    transform: translateY(4px);
+}
+
+header .navigation .navigation-items a:hover:before {
+    width: 100%;
+}
+
+header .navigation .navigation-items a.active::before {
+    width: 100%;
+}
+
+#btn-1 span{
+    position: relative;
+    bottom: 1.8px;
+}
+
+#btn-1 {
+    position: relative;
+    margin-left: 25rem;
+    display: inline-flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #0000;
+    color: #F5FFF9;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: #ff0404 solid 3px;
+    transition: 0.5s ease;
+}
+
+#btn-1:hover {
+    background: #ff0404;
+}
+
+body{
+    background: #000;
+}
+
+/* Desigining of the Project section */
+
+.project-section{
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F5FFF9;
+    margin-bottom: 20%;
+}
+
+.project-section .main-text h1{
+    font-size: 4.5rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #ff0404;
+}
+
+.project-section .main-text h4{
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-section .project-content{
+    position: relative;
+    /* left: 4%; */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 100px;
+}
+
+.project-section .project-content .row{
+    width: 77%;
+    padding: 25px;
+    background: rgba(1, 1, 1, 0.29);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.project-section .project-content .row img{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.row h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+}
+
+.row h5{
+    font-size: 17px;
+    color: #ff0404;
+    font-weight: 700;
+    font-family: 'Righteous', cursive;
+}
+
+.row-icon i{
+    font-size: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.row-icon i:hover{
+    transform: scale(1.2);
+    color: #ff0404;
+}
+
+.row:hover{
+    transform: scale(1.1);
+}
+
+.button-3 a{
+    font-size: 1.5rem;
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    color: #fcfbfb;
+    border: 2px solid #ff0404;
+    padding: 20px 20px;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+.button-3 a:hover{
+    color: #F5FFF9;
+    background: #ff0404;
+    /* letter-spacing: 2px; */
+}
+
+.extend-time {
+    display: none;
+}
+
+.preloader {
+    position: fixed;
+    background: #000 url(/Images/NewIdea/GIFs/about-load_1.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    z-index: 1002;
+}
