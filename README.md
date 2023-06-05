@@ -13,7 +13,7 @@
 
 A portfolio website serves as a digital showcase, encapsulating one's skills, achievements, and creative works. With its carefully curated layout and captivating visuals, it captures the essence of an individual's expertise or an organization's offerings. It's a virtual gateway that invites visitors to explore, appreciate, and connect with the talent behind the screen.
 
-[For more info](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiuzf7dn6z_AhXXxjgGHW8PBWkQFnoECAkQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPortfolio&usg=AOvVaw0esSbLMfkmbjkNplceYHhJ)
+[For more info about portfolios](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiuzf7dn6z_AhXXxjgGHW8PBWkQFnoECAkQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPortfolio&usg=AOvVaw0esSbLMfkmbjkNplceYHhJ)
 
 
 # Preview
