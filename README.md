@@ -18,8 +18,17 @@ A portfolio website serves as a digital showcase, encapsulating one's skills, ac
 
 # Preview
 
-
+### Home Page
 ![Prev1](https://github.com/KratosXVII/Portfolio/assets/115424812/fc03a1df-f680-48cc-be9d-13741f7cc080)
+
+### About Page
+![Prev2](https://github.com/KratosXVII/Portfolio/assets/115424812/6015d594-7734-40eb-bc24-d3ea8964f83d)
+
+### Skill Page
+![Prev3](https://github.com/KratosXVII/Portfolio/assets/115424812/9419244c-f15b-4f8b-b4d0-b85cc61c6fc0)
+
+### Contact Page
+![Prev4](https://github.com/KratosXVII/Portfolio/assets/115424812/7e2da369-110e-4b0e-a8d1-b7d9f7471977)
 
 
 
