@@ -67,7 +67,7 @@ To deploy this project run
 
 ## 🚀 About Me
 
-So, I am Soumyadip a.k.a Sudo-Nova. I am a aspiring software developer. I have developed many websites for my clients, not to mention happy clients. I have been working as a project manager for a gaming company called Riot. I have managed several developments projects and have succesfully mentored many rookie developers and led them down the right path. If you want to know more please check out the skill section below. And if you want to connect with me feel free to contact me...
+So, I am Soumyadip a.k.a Sudo-Nova. I am a professional software developer. I have developed many websites for my clients, not to mention happy clients. I have been working as a project manager for a gaming company called Riot. I have managed several developments projects and have succesfully mentored many rookie developers and led them down the right path. If you want to know more please check out the skill section below. And if you want to connect with me feel free to contact me...
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soumyadip-sanyal-a2867925a/)
